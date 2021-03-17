@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Flunt/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
+      "Restaurant.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Flunt": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flunt/2.0.2": {
+      "sha512": "6N8KL6qauZb3NpurNmbVRgvcclP1+X39uNzmpzCeL7xMozW7cfaaSnaC9pKwy+x/l2ev+BHC8BFNIJKutAje/g==",
+      "type": "package",
+      "path": "flunt/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.2.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
+    "Restaurant.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Domain/Restaurant.Domain.csproj",
+      "msbuildProject": "../Restaurant.Domain/Restaurant.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Restaurant.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ma_th\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ma_th\\Desktop\\carlabs-fullstack-technical-test\\Backend\\Restaurant\\Restaurant.Service\\Restaurant.Service.csproj",
+      "projectName": "Restaurant.Service",
+      "projectPath": "C:\\Users\\ma_th\\Desktop\\carlabs-fullstack-technical-test\\Backend\\Restaurant\\Restaurant.Service\\Restaurant.Service.csproj",
+      "packagesPath": "C:\\Users\\ma_th\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ma_th\\Desktop\\carlabs-fullstack-technical-test\\Backend\\Restaurant\\Restaurant.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ma_th\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\ma_th\\Desktop\\carlabs-fullstack-technical-test\\Backend\\Restaurant\\Restaurant.Domain\\Restaurant.Domain.csproj": {
+              "projectPath": "C:\\Users\\ma_th\\Desktop\\carlabs-fullstack-technical-test\\Backend\\Restaurant\\Restaurant.Domain\\Restaurant.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

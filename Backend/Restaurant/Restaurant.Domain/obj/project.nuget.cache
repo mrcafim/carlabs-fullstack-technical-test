@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eZSk/eO9sCT4zQm5rPcTx2r+R7K52/9FsM5d+Ybd8k+3d/zXto5wwGJEylugyRhqFFn0p88slpj96v9b9YUghQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ma_th\\Desktop\\carlabs-fullstack-technical-test\\Backend\\Restaurant\\Restaurant.Domain\\Restaurant.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ma_th\\.nuget\\packages\\flunt\\2.0.2\\flunt.2.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
