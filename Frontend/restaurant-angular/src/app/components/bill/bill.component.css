@@ -1,0 +1,8 @@
+.total-line{
+    background: #fae3a2;
+}
+.total-line:hover{
+    background: #e9c256 !important;
+    font-weight: bold;
+    font-size: 15px;
+}

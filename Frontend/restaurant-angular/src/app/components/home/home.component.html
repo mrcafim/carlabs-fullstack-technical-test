@@ -1,0 +1,40 @@
+<h2>
+    Welcome!
+</h2>
+<div class="explanation">
+    <p> Enter your table number and choose from the options below which type of meal you want </p>
+</div>
+
+
+<div class="content">
+    <div class="row input-table">
+        <div class="col-12">
+            <label>TABLE NUMBER</label>
+            <input type="text" class="form-control input-item" [(ngModel)]="tableId" placeholder="Enter your table number here...">                             
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="card" style="border: 1px solid #000;">
+            <img class="card-img-top" src="../../../assets/img/breakfast.jpg" width="500px;" alt="Card image cap">
+            <div class="card-body center" style="align-content: center;">
+                <h5 class="card-title">Breakfast</h5>
+                <div (click)="openMenu('1')" class="btn btn-primary">Click here</div>
+            </div>
+        </div>
+        <div class="card" style="border: 1px solid #000;">
+            <img class="card-img-top" src="../../../assets/img/lunch.png" width="50px;" alt="Card image cap">
+            <div class="card-body center" style="align-content: center;">
+                <h5 class="card-title">Lunch</h5>
+                <div (click)="openMenu('2')" class="btn btn-primary">Click here</div>
+            </div>
+        </div>
+        <div class="card" style="border: 1px solid #000;">
+            <img class="card-img-top" src="../../../assets/img/dinner.jpeg" alt="Card image cap">
+            <div class="card-body center" style="align-content: center;">
+                <h5 class="card-title">Dinner</h5>
+                <div (click)="openMenu('3')" class="btn btn-primary">Click here</div>
+            </div>
+        </div>
+    </div>
+
+</div>

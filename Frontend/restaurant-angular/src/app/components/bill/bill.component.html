@@ -1,0 +1,27 @@
+<h2>
+    Orders Review
+</h2>
+<div class="lista">
+    <table class="table table-hover" style="text-align: center;">
+        <thead>
+            <tr>
+                <th width="20%">Type</th>
+                <th>Description</th>
+                <th width="20%">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let order of ordersList | paginate: { itemsPerPage: 10, currentPage: pagination }" class="pointer">
+                <td>{{order.product.type | productType}}</td>
+                <td>{{order.product.description}}</td>
+                <td>${{order.product.price}}</td>
+            </tr>
+            <tr class="total-line">
+                <th colspan="2" class="pointer">Total</th>
+                <th width="20%">{{ totalBill }}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<pagination-controls class="my-pagination" (pageChange)="pagination = $event" previousLabel="Previous" nextLabel="Next">
+</pagination-controls>

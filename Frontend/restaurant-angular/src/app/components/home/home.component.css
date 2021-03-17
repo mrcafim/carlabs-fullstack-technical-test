@@ -1,0 +1,25 @@
+.explanation {
+    border-radius: 3px;
+    background: #1481da;
+    padding: .75em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.explanation p,
+.explanation label,
+.explanation .pb {
+    margin-bottom: 0;
+    color: rgb(0, 0, 0) !important;
+}
+
+.input-table{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.input-item{
+    margin: auto;
+    text-align: center;;
+}

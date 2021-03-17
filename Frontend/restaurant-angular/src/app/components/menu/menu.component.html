@@ -1,0 +1,31 @@
+<h2>
+    Menu
+</h2>
+<div class="lista">
+    <table class="table table-hover" style="text-align: center;">
+        <thead>
+            <tr>
+                <th width="20%">Type</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Order</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of productsList | paginate: { itemsPerPage: 10, currentPage: pagination }" class="pointer">
+                <td>{{product.type | productType}}</td>
+                <td>{{product.description}}</td>
+                <td>${{product.price}}</td>
+                <td>
+                    <a class="btn" (click)="getItem(product.id)"><i class="fas fa-play"></i></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<pagination-controls class="my-pagination" (pageChange)="pagination = $event" previousLabel="Previous" nextLabel="Next">
+</pagination-controls>
+
+<div class="row" style="margin-top: 100px;">
+    <button (click)="openBill()" type="button" class="btn btn-primary btn-lg btn-block">Calculate Bill</button>
+</div>
