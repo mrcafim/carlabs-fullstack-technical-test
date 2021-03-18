@@ -30,7 +30,7 @@ Since it's a challenge application, it's not totally ready. And if in some momen
  - To run this application, in both parts (frontend and backend), you will basically need to install two packages:
       - NodeJS v13+
       - .NET Core SDK v3+
-      - Also, would be good a Visual Studio with web development configuration
+      - Also, it would be good a Visual Studio with web development configuration
 
 ### Frontend
 
