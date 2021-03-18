@@ -15,6 +15,8 @@ Folders explanation:
            - restaurant-angular: frontend based in Angular. Currently in version 11. 
            - restaurant-react: frontend based in ReactJS. Currently in version 17. 
 
+You can follow the development proccess of React frontend in the branch feature/frontend-react
+
 ## Enhancements
 
 Since it's a challenge application, it's not totally ready. And if in some moment it would go for production, a few improvements would be necessary, like:
